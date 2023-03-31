@@ -1,0 +1,221 @@
+.d {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.about-content {
+
+  color: rgb(255, 255, 255);
+  max-width: 1200px;
+  height: 100%;
+  position: relative;
+  z-index: 4;
+
+  border-radius: 5%;
+  font-weight: 600;
+  font-size: 1.6rem;
+ 
+
+}
+
+.about-content .ana-baslik {
+  text-align: center;
+  font-size: 8rem;
+  color: var(--sari);
+  font-weight: 600;
+  color: rgb(58, 65, 73);
+  margin: 20px 0;
+
+}
+
+.ana-baslik span {
+  color: rgb(74, 213, 117);
+}
+
+.about-content p {
+
+  color: #747474;
+  padding: 15px 5px;
+  margin: 0;
+  font-weight: 500;
+  font-size: 1.7rem;
+
+}
+
+
+.x-content {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  color: rgb(255, 255, 255);
+  height: 100%;
+  position: relative;
+  z-index: 4;
+  border-radius: 5%;
+  font-weight: 600;
+  font-size: 1.6rem;
+
+
+
+}
+
+.products-wrapper {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  margin: 50px 0;
+  padding: 150px 0 100px 0;
+  color: black;
+  gap: 50px;
+
+}
+
+.products-wrapper h2 {
+  position: absolute;
+  font-weight: bold;
+  color: rgb(74, 213, 117);
+  top: 0;
+  left: 400px;
+  font-size: 45px;
+
+
+}
+
+.products-sidebar {
+  flex: 1;
+}
+
+.products {
+  flex: 5;
+  position: relative;
+}
+
+
+
+
+
+.product-item {
+  display: flex;
+  font-weight: bold;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5px;
+  color: rgb(58, 65, 73);
+  font-size: 15px;
+  cursor: pointer;
+  padding: 2px;
+
+}
+
+.product-item i {
+  padding-right: 10px;
+  color: rgb(58, 65, 73);
+}
+
+
+
+.product-item:hover {
+  scale: 1.3;
+  font-weight: bold;
+  background-color: rgba(0, 0, 0, 0.025);
+  color: rgb(0, 0, 0) !important;
+}
+
+
+.active {
+  scale: 1.3;
+  font-weight: bold;
+  background-color: rgba(0, 0, 0, 0.025);
+  color: rgb(0, 0, 0) !important;
+}
+
+
+.active i {
+  color: rgb(74, 213, 117);
+}
+
+.bold {
+  font-weight: bold;
+  color: rgb(58, 65, 73);
+}
+
+.products h2 {
+  position: absolute;
+  top: -50px;
+  left: 300px;
+  color: rgb(71, 204, 113);
+  font-weight: bold;
+  font-size: 30px;
+}
+
+
+
+
+@media (max-width: 950px) {
+
+  .about-content {
+    max-width: 400px;
+    font-weight: 600;
+    font-size: 1.6rem;
+    color: rgb(255, 255, 255);
+    padding: 10px 30px;
+
+  }
+
+  .about-content .ana-baslik {
+    font-size: 7rem;
+  }
+
+  .products-wrapper {
+    flex-direction: column;
+    padding: 0;
+  }
+
+  .products-wrapper h2 {
+    position: static;
+
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: rgb(71, 204, 113);
+    font-weight: bold;
+    font-size: 35px;
+  }
+
+  .products-list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  .product-item {
+    display: flex;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    padding: 8px;
+    margin: 10px 5px;
+
+  }
+
+  .products {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .products h2 {
+
+    position: static;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: rgb(71, 204, 113);
+    font-weight: bold;
+    font-size: 25px;
+  }
+
+}

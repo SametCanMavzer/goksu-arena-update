@@ -1,0 +1,132 @@
+.about-content {
+  margin-bottom: 100px;
+  display: flex;
+  padding: 10px 20px;
+}
+
+.map {
+  padding: 10px 30px 10px 0;
+}
+
+.adress {
+  padding: 10px 0 10px 10px;
+}
+
+.adress li {
+  padding: 5px;
+}
+
+.adress h2 {
+  text-align: center;
+  color: #333;
+  font-size: 3.5rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.adress strong {
+  font-size: 2.5rem;
+  color: #333;
+  font-weight: bold;
+}
+
+.adress i {
+  font-size: 1.5rem;
+  color: #4AD575;
+  padding: 0 8px 0 0;
+}
+
+.adress p {
+  font-size: 2rem;
+  margin: 0;
+  color: #333333b5;
+}
+
+.adress a {
+
+  color: #333333b5;
+}
+
+.footer {
+
+  margin: 0;
+}
+
+.footer-kisa {
+  font-size: 2.5rem;
+
+}
+
+.footer-kisa a {
+  font-size: 2.8rem;
+  margin: 20px 0;
+  padding: 10px 0;
+}
+
+.footer-kisa .footer-comment {
+  padding: 10px;
+  position: relative;
+}
+
+
+.contact-social i {
+  font-size: 2.5rem;
+  padding: 1rem;
+
+}
+
+.contact-social i:hover {
+  scale: 2;
+}
+
+.contact-social .face {
+  color: #4267b2;
+  margin-left: 100px;
+}
+
+.contact-social .twit {
+  color: #1da1f2;
+}
+
+.contact-social .yout {
+  color: #ff0000;
+}
+
+.contact-social .inst {
+  color: #c13584;
+}
+
+
+@media (max-width: 728px) {
+
+  .about-content {
+    display: block;
+  }
+
+  .map iframe {
+    width: 300px;
+    height: 300px;
+
+  }
+
+  .map {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+  }
+
+  .adress {
+    padding: 10px;
+  }
+
+  .contact-social .face {
+    margin-left: 50px;
+  }
+
+  .footer-kisa {
+    height: 300px !important;
+  }
+}
