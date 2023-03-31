@@ -120,21 +120,7 @@ $(document).ready(function () {
     })
 
 
-    // data.forEach((data) => {
-    //     items.forEach((item) => {
-
-    //         let id = Number(item.id);
-
-
-    //         if (data.id === id) {
-
-    //             h2.innerHTML = data.baslık;
-
-    //         }
-
-    //     })
-
-    // })
+    
 
 
 
@@ -145,20 +131,6 @@ $(document).ready(function () {
 
 
 
-    // let px = 950;
-    // let ekranBoyutu = window.outerWidth;
-
-    // if(ekranBoyutu < px){
-    //  $(".pazarlama-img-sol").remove();
-    // let div = $("<div></div>").prependTo(".add");
-    // let classAdd=div.addClass("pazarlama-imgs");
-    // let imgAdd = $("<img>").appendTo(".pazarlama-imgs"); 
-    // let imgClass = imgAdd.addClass("bufe-src  soyunma-odasi-src aydinlatma-src ");
-    // let imgSrcBufe= $(".bufe-src").attr("src" , "../img//f3.jpeg");
-    // let imgSrcSyo= $(".soyunma-odasi-src").attr("src" , "../img//f3.jpeg");
-    // let imgSrcAyd= $(".aydinlatma-src").attr("src" , "../img//f3.jpeg");
-
-    // }
 
 
 
